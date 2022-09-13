@@ -39,4 +39,4 @@ def Anime_Scrapper():
     Numero_Random_2 = Numero_Random_Rango(len(lista_De_Animes))
     return lista_De_Animes[Numero_Random_2].puntaje, lista_De_Animes[Numero_Random_2].info, lista_De_Animes[Numero_Random_2].link
 
-print(Anime_Scrapper())
+#print(Anime_Scrapper())
