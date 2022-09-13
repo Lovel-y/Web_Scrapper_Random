@@ -15,7 +15,7 @@ class MyWidget(QtWidgets.QWidget):
         self.layout = QtWidgets.QVBoxLayout(self)
         self.layout.addWidget(self.anime_Random)
         self.layout.addWidget(self.Random_Photo_prnt) 
-        self.anime_name = QtWidgets.QLabel( '', alignment=QtCore.Qt.AlignCenter)
+
         self.anime_puntaje = QtWidgets.QLabel( '', alignment=QtCore.Qt.AlignCenter)
         self.anime_info = QtWidgets.QLabel( '', alignment=QtCore.Qt.AlignCenter)
         self.anime_link = QtWidgets.QLabel( '', alignment=QtCore.Qt.AlignCenter)
