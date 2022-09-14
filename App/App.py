@@ -9,7 +9,7 @@ class MyWidget(QtWidgets.QWidget):
         super().__init__()
         self.Random_Photo_prnt = QtWidgets.QPushButton("Foto Aleatoria")
         self.anime_Random = QtWidgets.QPushButton("Anime Random")
-        self.setWindowTitle("OstaMinzador")   
+        self.setWindowTitle("Web Scrapper")   
              
         #Seteo de los botones
         self.layout = QtWidgets.QVBoxLayout(self)
